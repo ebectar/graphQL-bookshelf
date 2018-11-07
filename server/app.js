@@ -9,5 +9,5 @@ app.use("/shelf", graphqlHTTP({
 }));
 
 app.listen(4000, () => {
-  console.log("now listening for requests on port 4000");
+  console.log("Listening on port 4000!");
 });
